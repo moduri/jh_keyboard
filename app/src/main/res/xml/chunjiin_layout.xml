@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row>
+        <Key android:codes="49" android:keyLabel="ㅣ" />
+        <Key android:codes="50" android:keyLabel="ㆍ" />
+        <Key android:codes="51" android:keyLabel="ㅡ" />
+        <Key android:codes="67" android:keyLabel="⌫" android:isRepeatable="true"/> <!-- 삭제 키 -->
+    </Row>
+
+    <Row>
+        <Key android:codes="52" android:keyLabel="ㄱ" />
+        <Key android:codes="53" android:keyLabel="ㄴ" />
+        <Key android:codes="54" android:keyLabel="ㄷ" />
+        <Key android:codes="55" android:keyLabel="ㄹ" />
+    </Row>
+
+    <Row>
+        <Key android:codes="56" android:keyLabel="ㅁ" />
+        <Key android:codes="57" android:keyLabel="ㅂ" />
+        <Key android:codes="58" android:keyLabel="ㅅ" />
+        <Key android:codes="59" android:keyLabel="ㅇ" />
+    </Row>
+
+    <Row>
+        <Key android:codes="60" android:keyLabel="ㅈ" />
+        <Key android:codes="61" android:keyLabel="ㅊ" />
+        <Key android:codes="62" android:keyLabel="ㅋ" />
+        <Key android:codes="32" android:keyLabel="Space" android:keyWidth="20%p"/>
+    </Row>
+</Keyboard>

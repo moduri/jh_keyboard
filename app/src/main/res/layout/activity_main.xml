@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:orientation="vertical">
+
+    <!-- 첫 번째 줄 (ㅣ, ㆍ, ㅡ, 삭제) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/key_ㅣ"
+            android:layout_weight="1"
+            android:text="ㅣ"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/key_ㆍ"
+            android:layout_weight="1" android:text="ㆍ"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/key_ㅡ" android:layout_weight="1" android:text="ㅡ"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/key_delete" android:layout_weight="1" android:text="⌫"/>
+    </LinearLayout>
+
+    <!-- 두 번째 줄 (ㄱ, ㄴ, ㄷ, ㄹ) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/key_ㄱ" android:layout_weight="1" android:text="ㄱ"/>
+        <Button  android:layout_width="wrap_content" android:layout_height="wrap_content"  android:id="@+id/key_ㄴ" android:layout_weight="1" android:text="ㄴ"/>
+        <Button  android:layout_width="wrap_content" android:layout_height="wrap_content"  android:id="@+id/key_ㄷ" android:layout_weight="1" android:text="ㄷ"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"  android:id="@+id/key_ㄹ" android:layout_weight="1" android:text="ㄹ"/>
+    </LinearLayout>
+
+    <!-- 세 번째 줄 (ㅁ, ㅂ, ㅅ, ㅇ) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button  android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/key_ㅁ" android:layout_weight="1" android:text="ㅁ"/>
+        <Button  android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/key_ㅂ" android:layout_weight="1" android:text="ㅂ"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"  android:id="@+id/key_ㅅ" android:layout_weight="1" android:text="ㅅ"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"  android:id="@+id/key_ㅇ" android:layout_weight="1" android:text="ㅇ"/>
+    </LinearLayout>
+
+    <!-- 네 번째 줄 (ㅈ, ㅊ, ㅋ, 스페이스) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"  android:id="@+id/key_ㅈ" android:layout_weight="1" android:text="ㅈ"/>
+        <Button  android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/key_ㅊ" android:layout_weight="1" android:text="ㅊ"/>
+        <Button  android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/key_ㅋ" android:layout_weight="1" android:text="ㅋ"/>
+        <Button  android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/key_space" android:layout_weight="1" android:text="Space"/>
+    </LinearLayout>
+</LinearLayout>

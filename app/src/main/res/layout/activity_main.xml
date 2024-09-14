@@ -30,10 +30,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/key_ㄱ" android:layout_weight="1" android:text="ㄱ"/>
-        <Button  android:layout_width="wrap_content" android:layout_height="wrap_content"  android:id="@+id/key_ㄴ" android:layout_weight="1" android:text="ㄴ"/>
-        <Button  android:layout_width="wrap_content" android:layout_height="wrap_content"  android:id="@+id/key_ㄷ" android:layout_weight="1" android:text="ㄷ"/>
-        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"  android:id="@+id/key_ㄹ" android:layout_weight="1" android:text="ㄹ"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/key_ㄱ" android:layout_weight="1" android:text="ㄱㅋ"/>
+        <Button  android:layout_width="wrap_content" android:layout_height="wrap_content"  android:id="@+id/key_ㄴ" android:layout_weight="1" android:text="ㄴㄹ"/>
+        <Button  android:layout_width="wrap_content" android:layout_height="wrap_content"  android:id="@+id/key_ㄷ" android:layout_weight="1" android:text="ㄷㅌ"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"  android:id="@+id/key_ㄹ" android:layout_weight="1" android:text="엔터"/>
     </LinearLayout>
 
     <!-- 세 번째 줄 (ㅁ, ㅂ, ㅅ, ㅇ) -->
@@ -41,10 +41,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <Button  android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/key_ㅁ" android:layout_weight="1" android:text="ㅁ"/>
-        <Button  android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/key_ㅂ" android:layout_weight="1" android:text="ㅂ"/>
-        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"  android:id="@+id/key_ㅅ" android:layout_weight="1" android:text="ㅅ"/>
-        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"  android:id="@+id/key_ㅇ" android:layout_weight="1" android:text="ㅇ"/>
+        <Button  android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/key_ㅁ" android:layout_weight="1" android:text="ㅂㅍ"/>
+        <Button  android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/key_ㅂ" android:layout_weight="1" android:text="ㅅㅎ"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"  android:id="@+id/key_ㅅ" android:layout_weight="1" android:text="ㅈㅊ"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"  android:id="@+id/key_ㅇ" android:layout_weight="1" android:text=".,?!"/>
     </LinearLayout>
 
     <!-- 네 번째 줄 (ㅈ, ㅊ, ㅋ, 스페이스) -->
@@ -52,9 +52,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"  android:id="@+id/key_ㅈ" android:layout_weight="1" android:text="ㅈ"/>
-        <Button  android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/key_ㅊ" android:layout_weight="1" android:text="ㅊ"/>
-        <Button  android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/key_ㅋ" android:layout_weight="1" android:text="ㅋ"/>
-        <Button  android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/key_space" android:layout_weight="1" android:text="Space"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:textSize="8sp" android:id="@+id/key_ㅈ" android:text="!#1"/>
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:textSize="8sp" android:id="@+id/key_ㅈ2" android:text="한/영"/>
+        </LinearLayout>
+        <Button  android:layout_width="0dp" android:layout_height="wrap_content" android:id="@+id/key_ㅊ" android:layout_weight="1" android:text="ㅇㅁ"/>
+        <Button  android:layout_width="0dp" android:layout_height="wrap_content" android:id="@+id/key_ㅋ" android:layout_weight="1" android:text="띄어쓰기"/>
+        <Button  android:layout_width="0dp" android:layout_height="wrap_content" android:id="@+id/key_space" android:layout_weight="1" android:text=","/>
     </LinearLayout>
 </LinearLayout>
